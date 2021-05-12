@@ -10,6 +10,8 @@
   <body>
     <header>
       <a href="#" class="brand">Hong Geun</a>
+      <div class="menu-btn">
+      </div>
       <div class="navigation">
         <a href="#main">Home</a>
         <a href="#about">About</a>
@@ -26,12 +28,13 @@
         <div class="animated-text">
           <h3>CS Student</h3>
           <h3>Full Stack Developer</h3>
-          <h3>Flutter Developer</h3>
+          <h3>Back End Developer</h3>
         </div>
         <a href="#works" class="btn">See My Work</a>
         <div class="media-icons">
           <a href="https://www.linkedin.com/in/honggeunji527" target="_blank"><i class="fab fa-linkedin"></i></a>
           <a href="https://github.com/pithecuse527" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://leetcode.com/gihong96/" target="_blank"><i class="fas fa-code"></i></a>
           <a href="https://pithecuse.tistory.com" target="_blank"><i class="fas fa-blog"></i></a>
           <a href="https://www.facebook.com/honggeun.ji/" target="_blank"><i class="fab fa-facebook-f"></i></a>
         </div>
@@ -51,11 +54,11 @@
           <h2 class="content-title">Hi There! I'm Hong Geun</h2>
           <p class="paragraph-text">I am currently pursuing a CS Bachelor's degree at Hanyang University(HYU), South Korea.<br><br>
             Before I start my undergraduate program in the HYU, I was a SW Development Support Airman at the Republic of Korea Airforce(ROKAF).
-            I trained to be a useful Full Stack Web Developer to serve my country's civilian. <br><br>
+            I trained to be a useful Full Stack Web Developer to serve my country. <br><br>
             Being an Airman for two years was crucial role in my life since I could made myself what I am.<br>
             Different kinds of people helped me to changed a lot in a various way. Some of them enoureged me to study in Canada and some others helped me to
             study in HYU. Eventually, I've done both!<br><br>
-            Thanks to the experience in ROKAF, I now can study Computer Science better and can decide what I should be as a programmer.
+            Thanks to the experience in ROKAF, I now can study Computer Science even better and can decide what I should be as a programmer.
           </p>
           <a href="https://www.linkedin.com/in/honggeunji527" target="_blank" class="btn">See More</a>
         </div>
@@ -69,8 +72,8 @@
       <div class="content">
         <div class="column col-left">
           <h2 class="content-title">My Skills and Experiences</h2>
-          <p>I have an experience in web development as a Full Stack Web programmer. <br>Mainly used Java and PHP at that time, but now I am focusing on my vision on the C/C++ to become a better system engineer.
-             Also, I am studying Flutter with Dart as I am interested in Cross Platform Development as well.</p>
+          <p>I have an experience in web development as a Full Stack Web programmer. <br>Mainly used Java and PHP at that time, but now I am focusing on my vision on the C/C++ to become a better software developer.
+             Also, I am studying Flutter with Dart as I am interested in Cross Platform Development.</p>
           <a href="#credentials" class="btn">See My Credentials</a>
         </div>
         <div class="column col-right">
@@ -178,6 +181,11 @@
           </div>
         </div>
       </div>
+      <div class="content">
+        <a href="https://github.com/pithecuse527?tab=repositories" target="_blank" class="btn">See My Every Work</a>
+        <p>&nbsp&nbsp</p>
+        <a href="https://leetcode.com/gihong96/" target="_blank" class="btn">See My Leetcode Challenges</a>
+      </div>
     </section>
 
     <section class="credentials" id="credentials">
@@ -185,7 +193,7 @@
         <h2 class="credentials-title">Credentials</h2>
         <p>
           I always eager to improve my web/app development technique which is beyond the school courses.<br>
-          Also, having a great communication skill is also important for me, so I keep study English as a second language.
+          Also, having a great communication skill is important for me, I keep study English as a second language.
         </p>
       </div>
       <div class="content">
@@ -283,12 +291,12 @@
     </section>
 
     <section class="contact" id="contact">
-      <div class="title">
+      <div class="title reveal">
         <h2 class="section-title">Contact Me</h2>
       </div>
       <div class="content">
         <div class="row">
-          <div class="card">
+          <div class="card reveal">
             <div class="contact-icon">
               <i class="fas fa-map-marker-alt"></i>
             </div>
@@ -297,7 +305,7 @@
               <span>203-602, 250, Bongsu-ro, Ulsan, Republic of Korea</span>
             </div>
           </div>
-          <div class="card">
+          <div class="card reveal">
             <div class="contact-icon">
               <i class="fas fa-map-marker-alt"></i>
             </div>
@@ -306,7 +314,7 @@
               <span>+82 1088548043</span>
             </div>
           </div>
-          <div class="card">
+          <div class="card reveal">
             <div class="contact-icon">
               <i class="fas fa-map-marker-alt"></i>
             </div>
@@ -315,7 +323,7 @@
               <span>gihong96@hanyang.ac.kr</span>
             </div>
           </div>
-          <div class="card">
+          <div class="card reveal">
             <div class="contact-icon">
               <i class="fas fa-map-marker-alt"></i>
             </div>
@@ -326,27 +334,33 @@
           </div>
         </div>
         <div class="row">
-          <div class="contact-form">
-            <h3>Send Message</h3>
-            <div class="input-box">
-              <input type="text" name="" value="" placeholder="Name">
-            </div>
-            <div class="input-box">
-              <input type="text" name="" value="" placeholder="Email">
-            </div>
-            <div class="input-box">
-              <textarea name="name" rows="8" cols="80" placeholder="messages"></textarea>
-            </div>
-            <div class="input-box">
-              <input type="submit" class="send-btn">
-            </div>
+          <div class="contact-form reveal">
+            <form class="contact-form2">
+              <h3>Send Message</h3>
+              <div class="input-box">
+                <input class="name" type="text" name="" value="" placeholder="Name">
+              </div>
+              <div class="input-box">
+                <input class="email" type="text" name="" value="" placeholder="Email">
+              </div>
+              <div class="input-box">
+                <textarea class="messages" value="" name="name" rows="8" cols="80" placeholder="messages"></textarea>
+              </div>
+              <div class="input-box">
+                <input type="submit" class="send-btn" value="SUBMIT">
+              </div>
+            </form>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- <footer class="footer"> -->
+    <footer class="footer">
+      <span class="footer-title">Hong Geun Ji</span>
+      <p>Copyright @2021. All Rights Reserved.</p>
+    </footer>
 
     <script src="script.js" charset="utf-8"></script>
+
   </body>
 </html>
